@@ -12,5 +12,14 @@ Rancangan Kelas:
 2. Pengeluaran
    - Override hitungTotal(). return nominal + biayaAdmin atau nominal + (nominal * 0.11)
 3. Pemasukkan
-   - Override hitungTotal(). return nominal
+   - Atribut:
+     tanggal: String
+     deskripsi: String
+     nominal: double
+
+Method:
+
+hitungTotal(): double (abstract → wajib di-override oleh subclass)
+
+Getter & Setter untuk semua atribut
 4. BukuKas
