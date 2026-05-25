@@ -13,4 +13,4 @@ Rancangan Kelas:
    - Override hitungTotal(). return nominal + biayaAdmin atau nominal + (nominal * 0.11)
 3. Pemasukkan
    - Override hitungTotal(). return nominal
-BukuKas
+4. BukuKas
